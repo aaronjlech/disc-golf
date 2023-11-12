@@ -1,0 +1,41 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Compiled Object files, Temp files, Log files
+*.o
+*.cgo1.go
+*.cgo2.c
+_cgo_generated_*
+_cgo_main.c
+_cgo_export.*
+
+# Ignore the local .env file
+.env
+
+# Ignore binary and executable files
+bin/
+*.iml
+
+# Ignore OS-specific files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Ignore go module cache
+/go.sum
+/go.mod
+
+# Ignore logs and other temporary files
+*.log
+*.log.*
